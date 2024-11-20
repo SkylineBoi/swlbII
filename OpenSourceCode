@@ -1,0 +1,1109 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local menuButton = Instance.new("TextButton")
+local Gs = Instance.new("ScreenGui")
+local ContactG = Instance.new("Frame")
+local menuButton_2 = Instance.new("TextButton")
+local DefenseStuffsG = Instance.new("Frame")
+local menuButton_3 = Instance.new("TextButton")
+local InfStaminaG = Instance.new("Frame")
+local menuButton_4 = Instance.new("TextButton")
+local MiscG = Instance.new("Frame")
+local menuButton_5 = Instance.new("TextButton")
+local dots3 = Instance.new("Frame")
+local menuButton_6 = Instance.new("TextButton")
+local idk = Instance.new("Frame")
+local menuButton_7 = Instance.new("TextButton")
+local exitButton = Instance.new("TextButton")
+local Titl = Instance.new("TextLabel")
+local Combat = Instance.new("ScreenGui")
+local Autoblock = Instance.new("Frame")
+local menuButton_8 = Instance.new("TextButton")
+local Autoblockv2 = Instance.new("Frame")
+local menuButton_9 = Instance.new("TextButton")
+local Autoparry = Instance.new("Frame")
+local menuButton_10 = Instance.new("TextButton")
+local Underhit = Instance.new("Frame")
+local menuButton_11 = Instance.new("TextButton")
+local combatstuffs = Instance.new("Frame")
+local Titl_2 = Instance.new("TextLabel")
+local exitButtonDefense = Instance.new("TextButton")
+local Lightsaber = Instance.new("ScreenGui")
+local Holosaber = Instance.new("Frame")
+local menuButton_12 = Instance.new("TextButton")
+local LightsaberStuffs = Instance.new("Frame")
+local Titl_3 = Instance.new("TextLabel")
+local Nosaber = Instance.new("Frame")
+local menuButton_13 = Instance.new("TextButton")
+local exitButtonLightsaber = Instance.new("TextButton")
+local Misc = Instance.new("ScreenGui")
+local AntiFreeze = Instance.new("Frame")
+local menuButton_14 = Instance.new("TextButton")
+local Autoheal = Instance.new("Frame")
+local menuButton_15 = Instance.new("TextButton")
+local Infforce = Instance.new("Frame")
+local menuButton_16 = Instance.new("TextButton")
+local Misc_2 = Instance.new("Frame")
+local Titl_4 = Instance.new("TextLabel")
+local Secret = Instance.new("Frame")
+local menuButton_17 = Instance.new("TextButton")
+local exitButtonMisc = Instance.new("TextButton")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+menuButton.Name = "menuButton"
+menuButton.Parent = ScreenGui
+menuButton.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton.BackgroundTransparency = 0.600
+menuButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton.BorderSizePixel = 0
+menuButton.Position = UDim2.new(0.575387001, 0, 0.943586707, 0)
+menuButton.Size = UDim2.new(0.087086305, 0, 0.0448390692, 0)
+menuButton.Modal = true
+menuButton.Font = Enum.Font.SciFi
+menuButton.Text = "Mod menu"
+menuButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton.TextSize = 20.000
+menuButton.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+
+Gs.Name = "Gs"
+Gs.Parent = ScreenGui
+Gs.Enabled = false
+Gs.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ContactG.Name = "ContactG"
+ContactG.Parent = Gs
+ContactG.Active = true
+ContactG.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ContactG.BackgroundTransparency = 0.400
+ContactG.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ContactG.LayoutOrder = 99
+ContactG.Position = UDim2.new(0.859089851, 0, 0.602290988, 0)
+ContactG.Selectable = true
+ContactG.Size = UDim2.new(0.0476919115, 0, 0.093829602, 0)
+ContactG.ZIndex = 0
+
+menuButton_2.Name = "menuButton"
+menuButton_2.Parent = ContactG
+menuButton_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_2.BackgroundTransparency = 1.000
+menuButton_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_2.BorderSizePixel = 0
+menuButton_2.Position = UDim2.new(0.0374543257, 0, -0.0112830997, 0)
+menuButton_2.Size = UDim2.new(1.02211726, 0, 0.997031212, 0)
+menuButton_2.Font = Enum.Font.SciFi
+menuButton_2.Text = "Contact "
+menuButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_2.TextScaled = true
+menuButton_2.TextSize = 39.000
+menuButton_2.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_2.TextWrapped = true
+
+DefenseStuffsG.Name = "DefenseStuffsG"
+DefenseStuffsG.Parent = Gs
+DefenseStuffsG.Active = true
+DefenseStuffsG.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DefenseStuffsG.BackgroundTransparency = 0.400
+DefenseStuffsG.BorderColor3 = Color3.fromRGB(255, 255, 255)
+DefenseStuffsG.LayoutOrder = 99
+DefenseStuffsG.Position = UDim2.new(0.81099999, 0, 0.508000016, 0)
+DefenseStuffsG.Selectable = true
+DefenseStuffsG.Size = UDim2.new(0.0476919115, 0, 0.0926427916, 0)
+
+menuButton_3.Name = "menuButton"
+menuButton_3.Parent = DefenseStuffsG
+menuButton_3.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_3.BackgroundTransparency = 1.000
+menuButton_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_3.BorderSizePixel = 0
+menuButton_3.Size = UDim2.new(1.00000024, 0, 0.998528242, 0)
+menuButton_3.Font = Enum.Font.SciFi
+menuButton_3.Text = "Combat"
+menuButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_3.TextScaled = true
+menuButton_3.TextSize = 27.000
+menuButton_3.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_3.TextWrapped = true
+
+InfStaminaG.Name = "InfStaminaG"
+InfStaminaG.Parent = Gs
+InfStaminaG.Active = true
+InfStaminaG.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfStaminaG.BackgroundTransparency = 0.400
+InfStaminaG.BorderColor3 = Color3.fromRGB(255, 255, 255)
+InfStaminaG.LayoutOrder = 99
+InfStaminaG.Position = UDim2.new(0.907000005, 0, 0.508000016, 0)
+InfStaminaG.Selectable = true
+InfStaminaG.Size = UDim2.new(0.0476919115, 0, 0.0926427916, 0)
+
+menuButton_4.Name = "menuButton"
+menuButton_4.Parent = InfStaminaG
+menuButton_4.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_4.BackgroundTransparency = 1.000
+menuButton_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_4.BorderSizePixel = 0
+menuButton_4.Position = UDim2.new(0.0452236012, 0, 0.00296879187, 0)
+menuButton_4.Size = UDim2.new(0.899771094, 0, 0.997031093, 0)
+menuButton_4.Font = Enum.Font.SciFi
+menuButton_4.Text = "Misc"
+menuButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_4.TextScaled = true
+menuButton_4.TextSize = 20.000
+menuButton_4.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_4.TextWrapped = true
+
+MiscG.Name = "MiscG"
+MiscG.Parent = Gs
+MiscG.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MiscG.BackgroundTransparency = 0.400
+MiscG.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MiscG.LayoutOrder = 99
+MiscG.Position = UDim2.new(0.859000027, 0, 0.508000016, 0)
+MiscG.Selectable = true
+MiscG.Size = UDim2.new(0.0476919115, 0, 0.0925207958, 0)
+MiscG.ZIndex = 0
+
+menuButton_5.Name = "menuButton"
+menuButton_5.Parent = MiscG
+menuButton_5.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_5.BackgroundTransparency = 1.000
+menuButton_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_5.BorderSizePixel = 0
+menuButton_5.Position = UDim2.new(0.0572737716, 0, -0.000946401036, 0)
+menuButton_5.Size = UDim2.new(0.883780062, 0, 1.00000012, 0)
+menuButton_5.ZIndex = 0
+menuButton_5.Font = Enum.Font.SciFi
+menuButton_5.Text = "Lightsaber Stuffs"
+menuButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_5.TextScaled = true
+menuButton_5.TextSize = 29.000
+menuButton_5.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_5.TextWrapped = true
+
+dots3.Name = "dots3"
+dots3.Parent = Gs
+dots3.Active = true
+dots3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dots3.BackgroundTransparency = 0.400
+dots3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+dots3.LayoutOrder = 99
+dots3.Position = UDim2.new(0.81052357, 0, 0.602290988, 0)
+dots3.Selectable = true
+dots3.Size = UDim2.new(0.0476919115, 0, 0.093829602, 0)
+
+menuButton_6.Name = "menuButton"
+menuButton_6.Parent = dots3
+menuButton_6.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_6.BackgroundTransparency = 1.000
+menuButton_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_6.BorderSizePixel = 0
+menuButton_6.Position = UDim2.new(0, 0, 0.00094639865, 0)
+menuButton_6.Size = UDim2.new(1.00000024, 0, 1.00000012, 0)
+menuButton_6.Font = Enum.Font.SciFi
+menuButton_6.Text = "Enable bypass"
+menuButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_6.TextScaled = true
+menuButton_6.TextSize = 31.000
+menuButton_6.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_6.TextWrapped = true
+
+idk.Name = "idk"
+idk.Parent = Gs
+idk.Active = true
+idk.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+idk.BackgroundTransparency = 0.400
+idk.BorderColor3 = Color3.fromRGB(255, 255, 255)
+idk.LayoutOrder = 99
+idk.Position = UDim2.new(0.907000005, 0, 0.601999998, 0)
+idk.Selectable = true
+idk.Size = UDim2.new(0.0476919115, 0, 0.0936101303, 0)
+idk.ZIndex = 0
+
+menuButton_7.Name = "menuButton"
+menuButton_7.Parent = idk
+menuButton_7.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_7.BackgroundTransparency = 1.000
+menuButton_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_7.BorderSizePixel = 0
+menuButton_7.Position = UDim2.new(0, 0, 0.000945969077, 0)
+menuButton_7.Size = UDim2.new(1.00000012, 0, 0.993562579, 0)
+menuButton_7.Font = Enum.Font.SciFi
+menuButton_7.Text = "..."
+menuButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_7.TextScaled = true
+menuButton_7.TextSize = 47.000
+menuButton_7.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_7.TextWrapped = true
+
+exitButton.Name = "exitButton"
+exitButton.Parent = Gs
+exitButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+exitButton.BackgroundTransparency = 0.500
+exitButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+exitButton.BorderSizePixel = 3
+exitButton.Position = UDim2.new(0.896997511, 0, 0.721820235, 0)
+exitButton.Size = UDim2.new(0.0548778735, 0, 0.0459005646, 0)
+exitButton.Modal = true
+exitButton.Font = Enum.Font.SciFi
+exitButton.Text = "Close"
+exitButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+exitButton.TextSize = 30.000
+exitButton.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+exitButton.TextStrokeTransparency = 0.400
+
+Titl.Name = "Titl"
+Titl.Parent = Gs
+Titl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Titl.BackgroundTransparency = 1.000
+Titl.Position = UDim2.new(0.810155988, 0, 0.440065384, 0)
+Titl.Selectable = true
+Titl.Size = UDim2.new(0, 127, 0, 37)
+Titl.Font = Enum.Font.SciFi
+Titl.Text = "llers hub"
+Titl.TextColor3 = Color3.fromRGB(255, 255, 255)
+Titl.TextScaled = true
+Titl.TextSize = 19.000
+Titl.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+Titl.TextStrokeTransparency = 0.400
+Titl.TextWrapped = true
+Titl.TextXAlignment = Enum.TextXAlignment.Left
+
+Combat.Name = "Combat"
+Combat.Parent = ScreenGui
+Combat.Enabled = false
+Combat.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Autoblock.Name = "Autoblock"
+Autoblock.Parent = Combat
+Autoblock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Autoblock.BackgroundTransparency = 0.400
+Autoblock.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Autoblock.BorderSizePixel = 0
+Autoblock.LayoutOrder = 99
+Autoblock.Position = UDim2.new(0.497165412, 0, 0.182219267, 0)
+Autoblock.Selectable = true
+Autoblock.Size = UDim2.new(0.155883208, 0, 0.038022548, 0)
+
+menuButton_8.Name = "menuButton"
+menuButton_8.Parent = Autoblock
+menuButton_8.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_8.BackgroundTransparency = 1.000
+menuButton_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_8.BorderSizePixel = 0
+menuButton_8.Position = UDim2.new(0, 0, 0.095288597, 0)
+menuButton_8.Size = UDim2.new(0.999999464, 0, 0.795501113, 0)
+menuButton_8.Font = Enum.Font.SciFi
+menuButton_8.Text = "Autoblock"
+menuButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_8.TextScaled = true
+menuButton_8.TextSize = 29.000
+menuButton_8.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_8.TextWrapped = true
+
+Autoblockv2.Name = "Autoblock v2"
+Autoblockv2.Parent = Combat
+Autoblockv2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Autoblockv2.BackgroundTransparency = 0.400
+Autoblockv2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Autoblockv2.BorderSizePixel = 0
+Autoblockv2.LayoutOrder = 99
+Autoblockv2.Position = UDim2.new(0.497165412, 0, 0.23406817, 0)
+Autoblockv2.Selectable = true
+Autoblockv2.Size = UDim2.new(0.155882716, 0, 0.0379999988, 0)
+
+menuButton_9.Name = "menuButton"
+menuButton_9.Parent = Autoblockv2
+menuButton_9.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_9.BackgroundTransparency = 1.000
+menuButton_9.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_9.BorderSizePixel = 0
+menuButton_9.Position = UDim2.new(0, 0, 0.095288597, 0)
+menuButton_9.Size = UDim2.new(0.999999464, 0, 0.795501113, 0)
+menuButton_9.Font = Enum.Font.SciFi
+menuButton_9.Text = "Legit Autoblock"
+menuButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_9.TextScaled = true
+menuButton_9.TextSize = 29.000
+menuButton_9.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_9.TextWrapped = true
+
+Autoparry.Name = "Autoparry"
+Autoparry.Parent = Combat
+Autoparry.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Autoparry.BackgroundTransparency = 0.400
+Autoparry.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Autoparry.BorderSizePixel = 0
+Autoparry.LayoutOrder = 99
+Autoparry.Position = UDim2.new(0.497165412, 0, 0.285917103, 0)
+Autoparry.Selectable = true
+Autoparry.Size = UDim2.new(0.155882716, 0, 0.0380000025, 0)
+
+menuButton_10.Name = "menuButton"
+menuButton_10.Parent = Autoparry
+menuButton_10.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_10.BackgroundTransparency = 1.000
+menuButton_10.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_10.BorderSizePixel = 0
+menuButton_10.Position = UDim2.new(0, 0, 0.095288597, 0)
+menuButton_10.Size = UDim2.new(0.999999464, 0, 0.795501113, 0)
+menuButton_10.Font = Enum.Font.SciFi
+menuButton_10.Text = "Autoparry"
+menuButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_10.TextScaled = true
+menuButton_10.TextSize = 29.000
+menuButton_10.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_10.TextWrapped = true
+
+Underhit.Name = "Underhit"
+Underhit.Parent = Combat
+Underhit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Underhit.BackgroundTransparency = 0.400
+Underhit.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Underhit.BorderSizePixel = 0
+Underhit.LayoutOrder = 99
+Underhit.Position = UDim2.new(0.497745156, 0, 0.340999961, 0)
+Underhit.Selectable = true
+Underhit.Size = UDim2.new(0.155254856, 0, 0.0379999988, 0)
+
+menuButton_11.Name = "menuButton"
+menuButton_11.Parent = Underhit
+menuButton_11.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_11.BackgroundTransparency = 1.000
+menuButton_11.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_11.BorderSizePixel = 0
+menuButton_11.Position = UDim2.new(0, 0, 0.095288597, 0)
+menuButton_11.Size = UDim2.new(0.999999464, 0, 0.795501113, 0)
+menuButton_11.Font = Enum.Font.SciFi
+menuButton_11.Text = "Underhit(Bind F)"
+menuButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_11.TextScaled = true
+menuButton_11.TextSize = 29.000
+menuButton_11.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_11.TextWrapped = true
+
+combatstuffs.Name = "combat stuffs"
+combatstuffs.Parent = Combat
+combatstuffs.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+combatstuffs.BackgroundTransparency = 0.400
+combatstuffs.BorderColor3 = Color3.fromRGB(255, 255, 255)
+combatstuffs.BorderSizePixel = 2
+combatstuffs.LayoutOrder = 99
+combatstuffs.Position = UDim2.new(0.497200459, 0, 0.138073429, 0)
+combatstuffs.Selectable = true
+combatstuffs.Size = UDim2.new(0.156105787, 0, 0.296291023, 0)
+combatstuffs.ZIndex = 0
+
+Titl_2.Name = "Titl"
+Titl_2.Parent = combatstuffs
+Titl_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Titl_2.BackgroundTransparency = 1.000
+Titl_2.Position = UDim2.new(0.0564180389, 0, -0.00426279521, 0)
+Titl_2.Selectable = true
+Titl_2.Size = UDim2.new(0, 218, 0, 36)
+Titl_2.Font = Enum.Font.SciFi
+Titl_2.Text = "Combat Stuffs"
+Titl_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Titl_2.TextScaled = true
+Titl_2.TextSize = 19.000
+Titl_2.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+Titl_2.TextStrokeTransparency = 0.400
+Titl_2.TextWrapped = true
+Titl_2.TextXAlignment = Enum.TextXAlignment.Left
+
+exitButtonDefense.Name = "exitButtonDefense"
+exitButtonDefense.Parent = Combat
+exitButtonDefense.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+exitButtonDefense.BackgroundTransparency = 0.500
+exitButtonDefense.BorderColor3 = Color3.fromRGB(255, 255, 255)
+exitButtonDefense.BorderSizePixel = 3
+exitButtonDefense.Position = UDim2.new(0.573303699, 0, 0.393090039, 0)
+exitButtonDefense.Size = UDim2.new(0.0716179311, 0, 0.030817898, 0)
+exitButtonDefense.Modal = true
+exitButtonDefense.Font = Enum.Font.SciFi
+exitButtonDefense.Text = "Close"
+exitButtonDefense.TextColor3 = Color3.fromRGB(255, 255, 255)
+exitButtonDefense.TextScaled = true
+exitButtonDefense.TextSize = 30.000
+exitButtonDefense.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+exitButtonDefense.TextStrokeTransparency = 0.400
+exitButtonDefense.TextWrapped = true
+
+Lightsaber.Name = "Lightsaber"
+Lightsaber.Parent = ScreenGui
+Lightsaber.Enabled = false
+Lightsaber.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Holosaber.Name = "Holosaber"
+Holosaber.Parent = Lightsaber
+Holosaber.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Holosaber.BackgroundTransparency = 0.400
+Holosaber.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Holosaber.BorderSizePixel = 0
+Holosaber.LayoutOrder = 99
+Holosaber.Position = UDim2.new(0.662473321, 0, 0.284511864, 0)
+Holosaber.Selectable = true
+Holosaber.Size = UDim2.new(0.140000001, 0, 0.0399999991, 0)
+Holosaber.ZIndex = 3
+
+menuButton_12.Name = "menuButton"
+menuButton_12.Parent = Holosaber
+menuButton_12.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_12.BackgroundTransparency = 1.000
+menuButton_12.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_12.BorderSizePixel = 0
+menuButton_12.Position = UDim2.new(0, 0, 0.095288597, 0)
+menuButton_12.Size = UDim2.new(0.999999464, 0, 0.795501113, 0)
+menuButton_12.Font = Enum.Font.SciFi
+menuButton_12.Text = "Holosaber"
+menuButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_12.TextScaled = true
+menuButton_12.TextSize = 29.000
+menuButton_12.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_12.TextWrapped = true
+
+LightsaberStuffs.Name = "LightsaberStuffs"
+LightsaberStuffs.Parent = Lightsaber
+LightsaberStuffs.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LightsaberStuffs.BackgroundTransparency = 0.400
+LightsaberStuffs.BorderColor3 = Color3.fromRGB(255, 255, 255)
+LightsaberStuffs.BorderSizePixel = 2
+LightsaberStuffs.LayoutOrder = 99
+LightsaberStuffs.Position = UDim2.new(0.66228956, 0, 0.22782436, 0)
+LightsaberStuffs.Selectable = true
+LightsaberStuffs.Size = UDim2.new(0.140559405, 0, 0.206558242, 0)
+
+Titl_3.Name = "Titl"
+Titl_3.Parent = LightsaberStuffs
+Titl_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Titl_3.BackgroundTransparency = 1.000
+Titl_3.Position = UDim2.new(0.0191355739, 0, -0.00426283246, 0)
+Titl_3.Selectable = true
+Titl_3.Size = UDim2.new(0, 195, 0, 41)
+Titl_3.Font = Enum.Font.SciFi
+Titl_3.Text = "Lightsaber Stuffs"
+Titl_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Titl_3.TextScaled = true
+Titl_3.TextSize = 19.000
+Titl_3.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+Titl_3.TextStrokeTransparency = 0.400
+Titl_3.TextWrapped = true
+Titl_3.TextXAlignment = Enum.TextXAlignment.Left
+
+Nosaber.Name = "Nosaber"
+Nosaber.Parent = Lightsaber
+Nosaber.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Nosaber.BackgroundTransparency = 0.400
+Nosaber.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Nosaber.BorderSizePixel = 0
+Nosaber.LayoutOrder = 99
+Nosaber.Position = UDim2.new(0.662473321, 0, 0.337873816, 0)
+Nosaber.Selectable = true
+Nosaber.Size = UDim2.new(0.140272155, 0, 0.0399999991, 0)
+
+menuButton_13.Name = "menuButton"
+menuButton_13.Parent = Nosaber
+menuButton_13.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_13.BackgroundTransparency = 1.000
+menuButton_13.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_13.BorderSizePixel = 0
+menuButton_13.Position = UDim2.new(0, 0, 0.095288597, 0)
+menuButton_13.Size = UDim2.new(0.999999464, 0, 0.795501113, 0)
+menuButton_13.Font = Enum.Font.SciFi
+menuButton_13.Text = "No lightsaber"
+menuButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_13.TextScaled = true
+menuButton_13.TextSize = 29.000
+menuButton_13.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_13.TextWrapped = true
+
+exitButtonLightsaber.Name = "exitButtonLightsaber"
+exitButtonLightsaber.Parent = Lightsaber
+exitButtonLightsaber.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+exitButtonLightsaber.BackgroundTransparency = 0.500
+exitButtonLightsaber.BorderColor3 = Color3.fromRGB(255, 255, 255)
+exitButtonLightsaber.BorderSizePixel = 3
+exitButtonLightsaber.Position = UDim2.new(0.73142004, 0, 0.39384073, 0)
+exitButtonLightsaber.Size = UDim2.new(0.0644855946, 0, 0.0318474546, 0)
+exitButtonLightsaber.Modal = true
+exitButtonLightsaber.Font = Enum.Font.SciFi
+exitButtonLightsaber.Text = "Close"
+exitButtonLightsaber.TextColor3 = Color3.fromRGB(255, 255, 255)
+exitButtonLightsaber.TextScaled = true
+exitButtonLightsaber.TextSize = 30.000
+exitButtonLightsaber.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+exitButtonLightsaber.TextStrokeTransparency = 0.400
+exitButtonLightsaber.TextWrapped = true
+
+Misc.Name = "Misc"
+Misc.Parent = ScreenGui
+Misc.Enabled = false
+
+AntiFreeze.Name = "Anti Freeze"
+AntiFreeze.Parent = Misc
+AntiFreeze.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AntiFreeze.BackgroundTransparency = 0.400
+AntiFreeze.BorderColor3 = Color3.fromRGB(255, 255, 255)
+AntiFreeze.BorderSizePixel = 0
+AntiFreeze.LayoutOrder = 99
+AntiFreeze.Position = UDim2.new(0.810549974, 0, 0.172038078, 0)
+AntiFreeze.Selectable = true
+AntiFreeze.Size = UDim2.new(0.159500003, 0, 0.0370000005, 0)
+
+menuButton_14.Name = "menuButton"
+menuButton_14.Parent = AntiFreeze
+menuButton_14.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_14.BackgroundTransparency = 1.000
+menuButton_14.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_14.BorderSizePixel = 0
+menuButton_14.Position = UDim2.new(-0.0043438673, 0, 0.0952886343, 0)
+menuButton_14.Size = UDim2.new(0.999999464, 0, 0.795501113, 0)
+menuButton_14.Font = Enum.Font.SciFi
+menuButton_14.Text = "Anti freeze"
+menuButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_14.TextScaled = true
+menuButton_14.TextSize = 29.000
+menuButton_14.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_14.TextWrapped = true
+
+Autoheal.Name = "Auto heal"
+Autoheal.Parent = Misc
+Autoheal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Autoheal.BackgroundTransparency = 0.400
+Autoheal.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Autoheal.BorderSizePixel = 0
+Autoheal.LayoutOrder = 99
+Autoheal.Position = UDim2.new(0.810549974, 0, 0.224433601, 0)
+Autoheal.Selectable = true
+Autoheal.Size = UDim2.new(0.159500003, 0, 0.0370000005, 0)
+
+menuButton_15.Name = "menuButton"
+menuButton_15.Parent = Autoheal
+menuButton_15.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_15.BackgroundTransparency = 1.000
+menuButton_15.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_15.BorderSizePixel = 0
+menuButton_15.Position = UDim2.new(-0.0043438673, 0, 0.0952886343, 0)
+menuButton_15.Size = UDim2.new(0.999999464, 0, 0.795501113, 0)
+menuButton_15.Font = Enum.Font.SciFi
+menuButton_15.Text = "Auto heal"
+menuButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_15.TextScaled = true
+menuButton_15.TextSize = 29.000
+menuButton_15.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_15.TextWrapped = true
+
+Infforce.Name = "Inf force"
+Infforce.Parent = Misc
+Infforce.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Infforce.BackgroundTransparency = 0.400
+Infforce.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Infforce.BorderSizePixel = 0
+Infforce.LayoutOrder = 99
+Infforce.Position = UDim2.new(0.810549974, 0, 0.278883845, 0)
+Infforce.Selectable = true
+Infforce.Size = UDim2.new(0.160006002, 0, 0.0368412547, 0)
+
+menuButton_16.Name = "menuButton"
+menuButton_16.Parent = Infforce
+menuButton_16.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_16.BackgroundTransparency = 1.000
+menuButton_16.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_16.BorderSizePixel = 0
+menuButton_16.Position = UDim2.new(-0.0043438673, 0, 0.0952886343, 0)
+menuButton_16.Size = UDim2.new(0.999999464, 0, 0.795501113, 0)
+menuButton_16.Font = Enum.Font.SciFi
+menuButton_16.Text = "Inf force/stamina"
+menuButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_16.TextScaled = true
+menuButton_16.TextSize = 29.000
+menuButton_16.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_16.TextWrapped = true
+
+Misc_2.Name = "Misc"
+Misc_2.Parent = Misc
+Misc_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Misc_2.BackgroundTransparency = 0.400
+Misc_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Misc_2.BorderSizePixel = 2
+Misc_2.LayoutOrder = 99
+Misc_2.Position = UDim2.new(0.810585737, 0, 0.118164487, 0)
+Misc_2.Selectable = true
+Misc_2.Size = UDim2.new(0.159636065, 0, 0.314622879, 0)
+Misc_2.ZIndex = 0
+
+Titl_4.Name = "Titl"
+Titl_4.Parent = Misc_2
+Titl_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Titl_4.BackgroundTransparency = 1.000
+Titl_4.Position = UDim2.new(0.0564179942, 0, -0.004262798, 0)
+Titl_4.Selectable = true
+Titl_4.Size = UDim2.new(0, 214, 0, 36)
+Titl_4.Font = Enum.Font.SciFi
+Titl_4.Text = "Misc"
+Titl_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Titl_4.TextScaled = true
+Titl_4.TextSize = 19.000
+Titl_4.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+Titl_4.TextStrokeTransparency = 0.400
+Titl_4.TextWrapped = true
+Titl_4.TextXAlignment = Enum.TextXAlignment.Left
+
+Secret.Name = "Secret"
+Secret.Parent = Misc
+Secret.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Secret.BackgroundTransparency = 0.400
+Secret.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Secret.BorderSizePixel = 0
+Secret.LayoutOrder = 99
+Secret.Position = UDim2.new(0.81099987, 0, 0.333999991, 0)
+Secret.Selectable = true
+Secret.Size = UDim2.new(0.159352019, 0, 0.0371186472, 0)
+
+menuButton_17.Name = "menuButton"
+menuButton_17.Parent = Secret
+menuButton_17.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+menuButton_17.BackgroundTransparency = 1.000
+menuButton_17.BorderColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_17.BorderSizePixel = 0
+menuButton_17.Position = UDim2.new(0, 0, 0.095288597, 0)
+menuButton_17.Size = UDim2.new(0.999999464, 0, 0.795501113, 0)
+menuButton_17.Font = Enum.Font.SciFi
+menuButton_17.Text = "Break cam(Rj to remove)"
+menuButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+menuButton_17.TextScaled = true
+menuButton_17.TextSize = 29.000
+menuButton_17.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+menuButton_17.TextWrapped = true
+
+exitButtonMisc.Name = "exitButtonMisc"
+exitButtonMisc.Parent = Misc
+exitButtonMisc.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+exitButtonMisc.BackgroundTransparency = 0.500
+exitButtonMisc.BorderColor3 = Color3.fromRGB(255, 255, 255)
+exitButtonMisc.BorderSizePixel = 3
+exitButtonMisc.Position = UDim2.new(0.889420569, 0, 0.392222643, 0)
+exitButtonMisc.Size = UDim2.new(0.0732375532, 0, 0.0298604444, 0)
+exitButtonMisc.Modal = true
+exitButtonMisc.Font = Enum.Font.SciFi
+exitButtonMisc.Text = "Close"
+exitButtonMisc.TextColor3 = Color3.fromRGB(255, 255, 255)
+exitButtonMisc.TextScaled = true
+exitButtonMisc.TextSize = 30.000
+exitButtonMisc.TextStrokeColor3 = Color3.fromRGB(177, 208, 232)
+exitButtonMisc.TextStrokeTransparency = 0.400
+exitButtonMisc.TextWrapped = true
+
+-- Scripts:
+
+local function WJNWX_fake_script() -- menuButton.LocalScript 
+	local script = Instance.new('LocalScript', menuButton)
+
+	local Gs = game.Players.LocalPlayer.PlayerGui.ScreenGui.Gs
+	local a = game.Players.LocalPlayer.PlayerGui.ScreenGui.menuButton
+	local music = game:GetService("StarterGui").forcePowers.activate
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(0.3)
+		Gs.Enabled = true
+		a.Visible = false
+		music:Play()
+	end)
+end
+coroutine.wrap(WJNWX_fake_script)()
+local function UYTC_fake_script() -- menuButton_2.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_2)
+
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {Title = "Devs!", Text = "UI by Uid#1337, scripts by BRUH#9171 and Lucifer.#8397"})
+	end)
+end
+coroutine.wrap(UYTC_fake_script)()
+local function AZCP_fake_script() -- menuButton_3.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_3)
+
+	local cb = game.Players.LocalPlayer.PlayerGui.ScreenGui.Combat
+	local music7 = game:GetService("StarterGui").forcePowers.activate
+	script.Parent.MouseButton1Click:Connect(function()
+		music7:Play()
+		cb.Enabled = true
+	end)
+end
+coroutine.wrap(AZCP_fake_script)()
+local function WDMBW_fake_script() -- menuButton_4.Misc 
+	local script = Instance.new('LocalScript', menuButton_4)
+
+	local Misc = game.Players.LocalPlayer.PlayerGui.ScreenGui.Misc
+	local music8 = game:GetService("StarterGui").forcePowers.activate
+	script.Parent.MouseButton1Click:Connect(function()
+		music8:Play()
+		Misc.Enabled = true
+	end)
+end
+coroutine.wrap(WDMBW_fake_script)()
+local function FUMUR_fake_script() -- menuButton_5.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_5)
+
+	local music9 = game:GetService("StarterGui").forcePowers.activate
+	local Lb = game.Players.LocalPlayer.PlayerGui.ScreenGui.Lightsaber
+	script.Parent.MouseButton1Click:Connect(function()
+		music9:Play()
+	  Lb.Enabled = true
+	end)
+end
+coroutine.wrap(FUMUR_fake_script)()
+local function MFQIE_fake_script() -- menuButton_6.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_6)
+
+	local music999 = game:GetService("StarterGui").forcePowers.equip
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("ReplicatedStorage").Events.ExploitLog:Destroy()
+		music999:Play()
+	end)
+end
+coroutine.wrap(MFQIE_fake_script)()
+local function KJZQZW_fake_script() -- menuButton_7.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_7)
+
+	local a = game:GetService("StarterGui").forcePowers.failed
+	script.Parent.MouseButton1Click:Connect(function()
+	  a:Play()
+	end)
+end
+coroutine.wrap(KJZQZW_fake_script)()
+local function ILXHX_fake_script() -- exitButton.LocalScript 
+	local script = Instance.new('LocalScript', exitButton)
+
+	local music13 = game:GetService("StarterGui").forcePowers.activate
+	local d = game.Players.LocalPlayer.PlayerGui.ScreenGui.menuButton
+	local Gs = game.Players.LocalPlayer.PlayerGui.ScreenGui.Gs
+	script.Parent.MouseButton1Click:Connect(function()
+		Gs.Enabled = false
+		d.Visible = true
+		music13:Play()
+	end)
+end
+coroutine.wrap(ILXHX_fake_script)()
+local function UMVRHQD_fake_script() -- menuButton_8.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_8)
+
+	local music14 = game:GetService("StarterGui").forcePowers.equip
+	script.Parent.MouseButton1Click:Connect(function()
+		music14:Play()
+		game.StarterGui:SetCore("SendNotification", {Title = "Autoblock", Text = "Bind U"})
+		local cooldown = {}
+		local Autoblock = false
+		local UIS = game:GetService("UserInputService")
+	
+		UIS.InputBegan:Connect(function(input, x)
+			if x then return end
+			if input.KeyCode == Enum.KeyCode.U then
+				Autoblock = not Autoblock
+				game.StarterGui:SetCore("SendNotification", {
+					Title = "Autoblock toggled";
+					Text = tostring(Autoblock)
+				})
+			end
+		end)
+	
+		local RunService = game:GetService("RunService")
+		RunService.Heartbeat:Connect(function()
+			if Autoblock == false then return end
+			local plr = game:GetService("Players").LocalPlayer
+			local chr = plr.Character
+			if not chr:FindFirstChildOfClass("Tool") then return end
+			local enemy = chr:FindFirstChildOfClass("Tool").combatData.Target.Value
+			if not enemy then return end
+			if not enemy:FindFirstChildOfClass("Tool") then return end
+			local A_1 = enemy:FindFirstChildOfClass("Tool").combatData.Stance.Value
+			local A_2 = false
+			local Event = chr:FindFirstChildOfClass("Tool").Assets.Events.updateStance
+			cooldown[enemy] = nil
+			Event:FireServer(A_1, A_2)
+			wait(0.005)
+			Event:FireServer(A_1, A_2)
+			wait(0.005)
+			Event:FireServer(A_1, A_2)
+		end)
+	end)
+	
+end
+coroutine.wrap(UMVRHQD_fake_script)()
+local function OWARN_fake_script() -- menuButton_9.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_9)
+
+	local music15 = game:GetService("StarterGui").forcePowers.equip
+	script.Parent.MouseButton1Click:Connect(function()
+		music15:Play()
+		game.StarterGui:SetCore("SendNotification", {Title = "Autoblock V2", Text = "Bind U"})
+		local cooldown = {}
+		local Autoblock = false
+		local UIS = game:GetService("UserInputService")
+	
+		UIS.InputBegan:Connect(function(input, x)
+			if x then return end
+			if input.KeyCode == Enum.KeyCode.U then
+				Autoblock = not Autoblock
+				game.StarterGui:SetCore("SendNotification", {
+					Title = "Autoblock toggled";
+					Text = tostring(Autoblock)
+				})
+			end
+		end)
+	
+		local RunService = game:GetService("RunService")
+		RunService.Heartbeat:Connect(function()
+			if Autoblock == false then return end
+			local plr = game:GetService("Players").LocalPlayer
+			local chr = plr.Character
+			if not chr:FindFirstChildOfClass("Tool") then return end
+			local enemy = chr:FindFirstChildOfClass("Tool").combatData.Target.Value
+			if not enemy then return end
+			if not enemy:FindFirstChildOfClass("Tool") then return end
+			local A_1 = enemy:FindFirstChildOfClass("Tool").combatData.Stance.Value
+			local A_2 = false
+			local Event = chr:FindFirstChildOfClass("Tool").Assets.Events.updateStance
+			if not enemy:FindFirstChildOfClass("Tool").combatData.Attacking.Value then return end
+			cooldown[enemy] = nil
+			Event:FireServer(A_1, A_2)
+			wait(0.005)
+			Event:FireServer(A_1, A_2)
+			wait(0.005)
+			Event:FireServer(A_1, A_2)
+		end)
+	end)
+	
+end
+coroutine.wrap(OWARN_fake_script)()
+local function NEHLZHB_fake_script() -- menuButton_10.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_10)
+
+	local music16 = game:GetService("StarterGui").forcePowers.equip
+	script.Parent.MouseButton1Click:Connect(function()
+		music16:Play()
+		local cooldown = {}
+		local RunService = game:GetService("RunService")
+		RunService.Heartbeat:Connect(function()
+			local plr = game.Players.LocalPlayer
+			local chr = plr.Character
+			if not chr then return end
+			if not chr.Lightsaber then return end
+			local enemy = chr.Lightsaber.combatData.Target.Value
+			if not enemy then return end
+			if not enemy.Lightsaber.combatData.Attacking.Value then return end
+			if cooldown[enemy] then return end
+			cooldown[enemy] = true
+			wait(0.2)
+			chr.Lightsaber.Assets.Events.attackStart:FireServer(enemy.Lightsaber.combatData.Stance.Value,false)
+			wait()
+			chr.Lightsaber.Assets.Events.cancelAttack:FireServer()
+			cooldown[enemy] = nil
+		end)
+	end)
+end
+coroutine.wrap(NEHLZHB_fake_script)()
+local function WARVW_fake_script() -- menuButton_11.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_11)
+
+	local music20 = game:GetService("StarterGui").forcePowers.equip
+	script.Parent.MouseButton1Click:Connect(function()
+		music20:Play()
+			local player = game.Players.LocalPlayer
+			local plr = game:GetService("Players").LocalPlayer
+			local mouse = player:GetMouse()
+			local A_1 = -180
+			local A_2 = false
+			local cdw = false
+			local Event = plr.Character.Lightsaber.Assets.Events.attackStart
+	
+			bind = "f" 
+	
+	
+			mouse.KeyDown:connect(function(key)
+				if not Event then 
+					return
+				end
+				if key == bind then
+					Event:FireServer(A_1, A_2)
+				end
+			end)
+	end)
+end
+coroutine.wrap(WARVW_fake_script)()
+local function FFBBM_fake_script() -- exitButtonDefense.LocalScript 
+	local script = Instance.new('LocalScript', exitButtonDefense)
+
+	local musicx = game:GetService("StarterGui").forcePowers.activate
+	local Cb = game.Players.LocalPlayer.PlayerGui.ScreenGui.Combat
+	script.Parent.MouseButton1Click:Connect(function()
+		Cb.Enabled = false
+		musicx:Play()
+	end)
+end
+coroutine.wrap(FFBBM_fake_script)()
+local function FHIBE_fake_script() -- menuButton_12.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_12)
+
+	local music6 = game:GetService("StarterGui").forcePowers.equip
+	script.Parent.MouseButton1Click:Connect(function()
+		music6:Play()
+		local plr = game:GetService("Players").LocalPlayer
+		plr.Character.Handle.beamInner:Destroy()
+		plr.Character.Handle.trailOuter:Destroy()
+		plr.Character.Handle.trailInner:Destroy()
+	end)
+end
+coroutine.wrap(FHIBE_fake_script)()
+local function MWMFQOC_fake_script() -- menuButton_13.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_13)
+
+	local music5 = game:GetService("StarterGui").forcePowers.equip
+	script.Parent.MouseButton1Click:Connect(function()
+		music5:Play()
+		local plr = game:GetService("Players").LocalPlayer
+		plr.Character.Handle.beamInner:Destroy()
+		plr.Character.Handle.beamOuter1:Destroy()
+		plr.Character.Handle.beamOuter2:Destroy()
+		plr.Character.Handle.trailOuter:Destroy()
+		plr.Character.Handle.trailInner:Destroy()
+		
+	end)
+end
+coroutine.wrap(MWMFQOC_fake_script)()
+local function FMTN_fake_script() -- exitButtonLightsaber.LocalScript 
+	local script = Instance.new('LocalScript', exitButtonLightsaber)
+
+	local music4 = game:GetService("StarterGui").forcePowers.activate
+	local gs = game.Players.LocalPlayer.PlayerGui.ScreenGui.Lightsaber
+	script.Parent.MouseButton1Click:Connect(function()
+		music4:Play()
+		gs.Enabled = false
+	end)
+end
+coroutine.wrap(FMTN_fake_script)()
+local function LUMGFWN_fake_script() -- menuButton_14.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_14)
+
+	local music3 = game:GetService("StarterGui").forcePowers.equip
+	script.Parent.MouseButton1Click:Connect(function()
+		music3:Play()
+		for i,v in pairs(game:GetDescendants()) do
+			v.ChildRemoved:Connect(function(e)
+			end)
+		end
+	
+		local function bruh()
+			local AnimationTracks = game.Players.LocalPlayer.Character.Humanoid:GetPlayingAnimationTracks()
+	
+			for i, track in pairs (AnimationTracks) do
+				track:Stop()
+			end    
+		end
+		local plrs = game.Players.LocalPlayer.Character
+		spawn(function()
+			for i,v in pairs(plrs:GetDescendants()) do
+				v.ChildAdded:Connect(function(e)
+					if e.Name == "forceFreezeEffect" or e.Name == "FakeBPVelocity" then
+						wait(0.1)
+						local toolname =  "Lightsaber"
+						game.Players.LocalPlayer.Backpack:FindFirstChild(toolname).Parent = game.Players.LocalPlayer.Character
+						game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild("forceFreezeEffect"):Destroy()
+						game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild("FakeBPVelocity"):Destroy()
+						game.Workspace.Camera.ColorCorrection:Destroy()
+						game.Players.LocalPlayer.Character.HumanoidRootPart.forceFreeze:Stop()
+						game.Players.LocalPlayer.Character.localForceEffects.vignette:Destroy()
+						game.Players.LocalPlayer.Character.localForceEffects:Destroy()
+						for i,v in pairs(game.Players.LocalPlayer.PlayerGui:GetChildren()) do
+							if v.Name == "vignette" then
+								v:Destroy()
+							end
+							if v:IsA("Sound") then v:Destroy() end    
+						end
+						game.Players.LocalPlayer.Character.Humanoid.PlatformStand = false
+						game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+						bruh()
+					end
+				end)
+			end
+		end)
+	end)
+end
+coroutine.wrap(LUMGFWN_fake_script)()
+local function WYANTU_fake_script() -- menuButton_15.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_15)
+
+	local music2 = game:GetService("StarterGui").forcePowers.equip
+	script.Parent.MouseButton1Click:Connect(function()
+		music2:Play()
+		while true do
+			wait()
+			local A_1 = true
+			local Event = game:GetService("ReplicatedStorage").Events.toggleHealing
+			Event:FireServer(A_1)
+		end
+	end)
+end
+coroutine.wrap(WYANTU_fake_script)()
+local function IWNX_fake_script() -- menuButton_16.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_16)
+
+	local music1 = game:GetService("StarterGui").forcePowers.equip
+	script.Parent.MouseButton1Click:Connect(function()
+		music1:Play()
+		local RunService = game:GetService("RunService")
+		RunService.Heartbeat:Connect(function()
+			local plr = game.Players.LocalPlayer
+			local chr = plr.Character
+			local env1 = getsenv(plr.Backpack.Force.Client)
+			env1.forceLevel = math.huge
+		end)
+		RunService.Heartbeat:Connect(function()
+			local plr = game.Players.LocalPlayer
+			local chr = plr.Character
+			local env = getsenv(chr.Lightsaber.Client)
+			env.stamina = math.huge
+		end)
+	
+	end)
+end
+coroutine.wrap(IWNX_fake_script)()
+local function HEZMM_fake_script() -- menuButton_17.LocalScript 
+	local script = Instance.new('LocalScript', menuButton_17)
+
+	local music1112 = game:GetService("StarterGui").forcePowers.activate
+	script.Parent.MouseButton1Click:Connect(function()
+		music1112:Play()
+	
+		--break cam
+		local RunService = game:GetService("RunService")
+		RunService.Heartbeat:Connect(function()
+			local plr = game.Players.LocalPlayer
+			local chr = plr.Character
+			function DestroyStance()
+				local Stance = chr.Lightsaber.combatData:WaitForChild("Stance")
+	
+				if Stance then
+					Stance:Destroy()
+	
+					local NewStance = Instance.new("NumberValue", chr.Lightsaber.combatData)
+					NewStance.Name = "Stance";NewStance.Value = 0/0
+				end
+			end
+			DestroyStance()
+		end)
+		
+	end)
+end
+coroutine.wrap(HEZMM_fake_script)()
+local function JGFAX_fake_script() -- exitButtonMisc.LocalScript 
+	local script = Instance.new('LocalScript', exitButtonMisc)
+
+	local music111 = game:GetService("StarterGui").forcePowers.activate
+	local Misc = game.Players.LocalPlayer.PlayerGui.ScreenGui.Misc
+	script.Parent.MouseButton1Click:Connect(function()
+		Misc.Enabled = false
+		music111:Play()
+	end)
+end
+coroutine.wrap(JGFAX_fake_script)()
