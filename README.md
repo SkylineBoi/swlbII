@@ -1,2 +1,2 @@
-Game link - https://www.roblox.com/games/850917308/Star-Wars-Lightsaber-Battles-II
+Game link - 850917308
 Works on celery/nyx
